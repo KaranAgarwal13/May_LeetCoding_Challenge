@@ -1,5 +1,6 @@
 void DFS(vector<vector<int>>& image, int sr, int sc, int newColor, int oldColor)
 {
+	//sentinels
 	if(sr>=0 && sc>=0 && sr<image.size() && sc<image[0].size() && image[sr][sc]==oldColor)
 	{
 		image[sr][sc]=newColor;
